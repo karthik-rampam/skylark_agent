@@ -1,0 +1,116 @@
+{
+  "data": {
+    "boards": [
+      {
+        "id": "5027108604",
+        "name": "work orders",
+        "columns": [
+          {
+            "id": "name",
+            "title": "Name",
+            "type": "name"
+          },
+          {
+            "id": "person",
+            "title": "Person",
+            "type": "people"
+          },
+          {
+            "id": "status",
+            "title": "Status",
+            "type": "status"
+          },
+          {
+            "id": "date4",
+            "title": "Date",
+            "type": "date"
+          },
+          {
+            "id": "text_mm1avayg",
+            "title": "Customer",
+            "type": "text"
+          },
+          {
+            "id": "text_mm1ay1fz",
+            "title": "Status",
+            "type": "text"
+          },
+          {
+            "id": "text_mm1anya3",
+            "title": "Sector",
+            "type": "text"
+          },
+          {
+            "id": "numeric_mm1apzpt",
+            "title": "Amount",
+            "type": "numbers"
+          },
+          {
+            "id": "date_mm1arma8",
+            "title": "End Date",
+            "type": "date"
+          }
+        ]
+      },
+      {
+        "id": "5027108399",
+        "name": "deals",
+        "columns": [
+          {
+            "id": "name",
+            "title": "Name",
+            "type": "name"
+          },
+          {
+            "id": "person",
+            "title": "Person",
+            "type": "people"
+          },
+          {
+            "id": "status",
+            "title": "Status",
+            "type": "status"
+          },
+          {
+            "id": "date4",
+            "title": "Date",
+            "type": "date"
+          },
+          {
+            "id": "text_mm1ayw2q",
+            "title": "Owner",
+            "type": "text"
+          },
+          {
+            "id": "text_mm1aqmsz",
+            "title": "Status",
+            "type": "text"
+          },
+          {
+            "id": "numeric_mm1arewa",
+            "title": "Value",
+            "type": "numbers"
+          },
+          {
+            "id": "text_mm1a8e35",
+            "title": "Sector",
+            "type": "text"
+          },
+          {
+            "id": "text_mm1aetbs",
+            "title": "Stage",
+            "type": "text"
+          },
+          {
+            "id": "date_mm1a40j0",
+            "title": "Close Date",
+            "type": "date"
+          }
+        ]
+      }
+    ]
+  },
+  "extensions": {
+    "request_id": "56fa9dd8-dbbd-9d3d-b5a2-584cb5359ea6"
+  }
+}

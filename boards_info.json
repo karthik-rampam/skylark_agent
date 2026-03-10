@@ -1,0 +1,63 @@
+{
+  "data": {
+    "boards": [
+      {
+        "id": "5027108604",
+        "name": "work orders",
+        "columns": [
+          {
+            "title": "Name"
+          },
+          {
+            "title": "Person"
+          },
+          {
+            "title": "Status"
+          },
+          {
+            "title": "Date"
+          }
+        ]
+      },
+      {
+        "id": "5027108399",
+        "name": "deals",
+        "columns": [
+          {
+            "title": "Name"
+          },
+          {
+            "title": "Person"
+          },
+          {
+            "title": "Status"
+          },
+          {
+            "title": "Date"
+          }
+        ]
+      },
+      {
+        "id": "5027108342",
+        "name": "Thefirst",
+        "columns": [
+          {
+            "title": "Name"
+          },
+          {
+            "title": "Owner"
+          },
+          {
+            "title": "Status"
+          },
+          {
+            "title": "Due date"
+          }
+        ]
+      }
+    ]
+  },
+  "extensions": {
+    "request_id": "7fc6775b-b59c-9ad5-863e-d0bfa93872f6"
+  }
+}

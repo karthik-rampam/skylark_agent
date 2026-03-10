@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skylark BI Agent</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="logo">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="16" cy="16" r="16" fill="#3B82F6" />
+                    <path d="M8 16L16 8L24 16L16 24L8 16Z" fill="white" />
+                </svg>
+                <span>Skylark BI</span>
+            </div>
+            <nav>
+                <div id="nav-chat" class="nav-item active">
+                    <span class="icon">💬</span>
+                    <span>AI Assistant</span>
+                </div>
+                <div id="nav-dashboard" class="nav-item">
+                    <span class="icon">📊</span>
+                    <span>Dashboard</span>
+                </div>
+            </nav>
+            <div class="status-card">
+                <div class="status-header">System Online</div>
+                <div class="status-detail">Monday.com Connected</div>
+            </div>
+        </aside>
+
+        <main id="chat-view" class="chat-main">
+            <header class="chat-header">
+                <h1>Business Intelligence Agent</h1>
+                <p>Answering founder-level queries across Deals and Work Orders</p>
+            </header>
+
+            <div id="chat-messages" class="chat-messages">
+                <div class="message ai">
+                    <div class="avatar">AI</div>
+                    <div class="text">Hello! I'm your Skylark BI Agent. How can I help you with your business data
+                        today? You can ask about pipeline health, sectoral performance, or operational metrics.</div>
+                </div>
+            </div>
+
+            <div class="chat-input-container">
+                <form id="chat-form">
+                    <input type="text" id="user-input" placeholder="Ask a business question..." autocomplete="off">
+                    <button type="submit">Send</button>
+                </form>
+                <p class="input-info">Sample: "How's our pipeline looking for energy sector?"</p>
+            </div>
+        </main>
+
+        <main id="dashboard-view" class="dashboard-main">
+            <header class="chat-header">
+                <h1>Executive Dashboard</h1>
+                <p>Real-time metrics from Monday.com</p>
+            </header>
+            <div class="dashboard-grid">
+                <div class="chart-card">
+                    <h2>Pipeline Value by Sector</h2>
+                    <canvas id="pipelineChart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <h2>Work Order Status</h2>
+                    <canvas id="opsChart"></canvas>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

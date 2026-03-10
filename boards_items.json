@@ -1,0 +1,161 @@
+{
+  "data": {
+    "boards": [
+      {
+        "items_page": {
+          "items": [
+            {
+              "name": "Deal name masked",
+              "column_values": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": null
+                },
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "name": "Scooby-Doo",
+              "column_values": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": null
+                },
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "name": "Appa",
+              "column_values": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": null
+                },
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "name": "Sakura",
+              "column_values": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": null
+                },
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "name": "Sakura",
+              "column_values": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": null
+                },
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "items_page": {
+          "items": [
+            {
+              "name": "Naruto",
+              "column_values": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": null
+                },
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "name": "Sasuke",
+              "column_values": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": null
+                },
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "name": "Sasuke",
+              "column_values": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": null
+                },
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "name": "Sakura",
+              "column_values": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": null
+                },
+                {
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "name": "Sakura",
+              "column_values": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": null
+                },
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "extensions": {
+    "request_id": "5df2ba0b-48ad-9cb6-a0c4-061d05945603"
+  }
+}

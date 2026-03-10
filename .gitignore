@@ -1,0 +1,14 @@
+.env
+__pycache__/
+*.pyc
+venv/
+.pytest_cache/
+.DS_Store
+*.log
+node_modules/
+.gemini/
+brain/
+tmp/
+*.csv
+!cleaned_deals.csv
+!cleaned_work_orders.csv
